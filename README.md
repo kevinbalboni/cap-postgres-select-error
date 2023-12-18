@@ -1,23 +1,19 @@
 # Getting Started
 
-Welcome to our example project.
+How to run the project:
 
-It contains these folders and files, following our recommended project layout:
-
-File or Folder | Purpose
----------|----------
-`db/` | domain models and data 
-`srv/` | service models and code  
-`http/` | example 
-`package.json` | project metadata and configuration
-`readme.md` | this getting started guide
-
+## Prerequisites:
+- PostgreSQL installed on your PC
+- Create the database `database1` on PostgreSQL and insert your credentials into the package.json file
 
 ## Next Steps
 
-- Open a new terminal and run `npm install` and `cds build`
-- Run application with cds `cds watch`   
+- Open a new terminal and run: 
+    - `npm install`
+    - `cds build`
+    - `cds deploy`
+- Run application with cds `cds run`   
+- Use the file Test.http inside folder http to launch to OData POST
 
-## Learn More
+- See the console with the output of the SELECT statement
 
-Learn more at https://cap.cloud.sap/docs/get-started/.

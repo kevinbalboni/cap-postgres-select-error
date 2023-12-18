@@ -1,0 +1,8 @@
+ID;name;expectedClass;altClass;isEnabled;isUIContainer;isBindable;getter;setter;addMethod;removeMethod;removeAllMethod;createdAt;createdBy;modifiedAt;modifiedBy;containerTypes;description
+415a5f65-707e-4ead-8eea-816aa10303cb;content;sap.ui.core.Control;;true;true;false;getContent;;addContent;removeContent;removeAllContent;;;;;;Child Controls of the view
+e85a9737-5251-4261-adb9-1b0a72fe9ffe;customData;sap.ui.core.CustomData;;false;false;false;getCustomData;;addCustomData;removeCustomData;removeAllCustomData;;;;;;Custom Data, a data structure like a map containing arbitrary key value pairs.
+0bc95367-b494-43f9-b281-f09cf5c1e3cf;dependents;sap.ui.core.Element;;false;false;false;getDependents;;addDependent;removeDependent;removeAllDependents;;;;;;Dependents are not rendered,lement.Since: 1.19.
+e4a42d95-5b05-4d54-9f49-e0ecea1976fd;dragDropConfig;sap.ui.core.dnd.DragDropBase;;false;false;false;getDragDropConfig;;addDragDropConfig;removeDragDropConfig;removeAllDragDropConfig;;;;;;Defines control metadata restrictions.Since: 1.56.
+533564d0-777d-40ca-9683-912f09715b4b;layoutData;sap.ui.core.LayoutData;;false;true;false;getLayoutData;setLayoutData;;destroyLayoutData;;;;;;;Defines the layout conmbedding Layout. See VariantLayoutData for aggregating multiple alternative LayoutData instances to a single Element.
+bf3a6c7f-eafb-4253-893b-a674da420175;tooltip;sap.ui.core.TooltipBase;;true;false;true;getTooltip;setTooltip;;destroyTooltip;;;;;;;The tooltip thesign Guideline.
+5379b4e4-9d6c-11ed-a8fc-0242ac120002;class;wisp.marginsPaddins;;true;false;false;getStyleClass;setStyleClass;addStyleClass;;;;;;;;
